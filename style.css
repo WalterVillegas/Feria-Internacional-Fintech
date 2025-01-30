@@ -1,0 +1,180 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Header */
+header {
+    background: url('imagenes/img1.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ponente {
+    text-align: center;
+}
+
+.ponente img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#agenda ul {
+    list-style: none;
+    padding: 0;
+}
+
+#agenda ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+}
+
+/* Formulario de registro */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #3498db;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.side-bar-left {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    background-color: #2c1bc4;
+    z-index: -1;
+}
+
+.side-bar-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    background-color: #2c1bc4;
+    z-index: -1;
+}
