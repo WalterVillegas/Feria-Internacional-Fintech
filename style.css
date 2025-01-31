@@ -178,3 +178,68 @@ footer .social-links a:hover {
     background-color: #2c1bc4;
     z-index: -1;
 }
+#contacto {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.social-link.linkedin:hover {
+    background-color: #005f87;
+}
+
+.social-link.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-link.facebook:hover {
+    background-color: #2d4373;
+}
+
+.social-link.instagram {
+    background-color: #e4405f;
+    color: white;
+}
+
+.social-link.instagram:hover {
+    background-color: #c13584;
+}
+
+.social-link.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.social-link.twitter:hover {
+    background-color: #1991db;
+}
